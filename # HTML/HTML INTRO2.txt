@@ -1,0 +1,333 @@
+  			INTRODUCTION
+		                *******************
+HTML is used to create Static Web Page.
+Real Time - Dynamic Web Page
+
+
+Tim Berner's lee is the Father of HTML.(CERN - Geneva)
+
+HTML  ---> Hyper Text Markup Language
+
+SGML  ---> Standard Generalised Markup Language
+
+
+HTML is not a Case Sensitive.
+
+Website --> Collection of Web Pages
+
+Website Name
+***********
+http://www.yahoo.com
+http://www.google.com
+http://www.bsnl.co.in
+http://www.southindia.com
+http://www.chennaionline.com
+http://www.sunnetwork.org
+
+http --> Protocol Name(Way of Communication)
+http --> Hyper Text Transfer Protocol
+www --> World Wide Web
+yahoo --> Website Name
+
+.com --> Commercial
+.edu --> Educational 
+.gov --> Government
+.mil --> Military
+.org --> Organisation
+.net --> Network
+.in --> Indian Website
+
+
+Internet --> Global Access
+Intranet --> Local Access
+
+
+Markup Languages
+******************
+Markup languages are 2 types
+
+1. Specific Markup Language(HTML)
+	It can be used to generate code that is specific to a particular application
+
+2. Generalized Markup Language(XML)
+	It describes the structure and meaning of the text in a document
+
+< > --> Tag
+
+<html>  ---> Opening Tag(Outermost Tag)
+
+</html> ---> Closing Tag
+
+Type ---> Notepad Editor
+
+Extension --> Filename.html
+
+Run in Browser(Internet Explorer, Netscape Navigator,Mozilla)
+
+
+
+There are Two Sections in Html.
+
+1. Head Section
+2. Body Section
+
+
+2 Types of Tag
+******************
+	* Single Tag (or) Empty Tag
+	* Container Tag (or) Paired Tag	
+
+
+<body>  </body>
+Attributes:-
+**********
+bgcolor="value"
+background="url"(Uniform Resource Locator)
+text="value"
+
+
+<title>
+Message
+</title>
+
+To Open Source(Notepad - coding) in IE
+************************************
+R.Click --> View Source
+	(or)
+View Menu --> Source
+
+
+Paragraph Tag
+*************
+<p>
+		Some Statements.
+</p>
+
+<br> ---> Break the Line
+
+<pre>
+Some Statements
+</pre>
+
+
+Headings
+********
+There are Six Types of Headings
+
+<h1>Message </h1>
+<h2>                </h2>
+<h3>                </h3>
+<h4>                </h4>
+<h5>                </h5>
+<h6>                </h6>
+
+Attributes
+*********
+Align = Left(Default), Right, Center
+
+
+
+Marquee Tag
+***********
+Attributes
+**********
+Direction = up,down,left,right
+Behavior= scroll, slide, alternate (Default --> Scroll)
+Loop = value(Number of time to Scroll)
+Scrollamount = value(Speed)
+scrolldelay = value(Slow)
+Bgcolor=Any Color                                                       
+Width = Value in % Format
+Height = Value in % Format
+
+Comment Tag
+***********
+<!--This is Comment Line-->
+A Comment will be ignored by the Browser.
+
+
+Break Tag
+*********
+<br> is an Empty tag, so it has no closing tag.
+
+
+<bgsound> Attribute
+********************************
+src="Filename with Path"
+loop = No. of times to repeat
+
+Supporting Files
+************************
+*.mp3
+*.mp4
+*.wav
+Horizontal Ruler
+****************
+You can use a Horizontal rule the(<hr> tag), to draw a horizontal line.
+<hr> is also an Empty Tag, so it has no closing tag.
+Attributes
+**********
+Color = "value"  (or) noshade (or) Default : Transparent
+Width="value in %"
+Size = value(Height)
+
+
+Text Formatting Tags
+**********************
+<b>This is a Bold Tag</b>
+<i>This text is italics</i>
+<u>Underline</u>
+<s>StrikeThru</s>
+<strong>Strong Tag</strong>
+<em>Emphasised Tag</em>
+<big>Big Tag</big>
+<small>Small Tag</small>
+<cite>Citation</cite>
+<kbd>Keyboard</kbd>
+H<sub>2</sub> O
+A<sup>2</sup> + B<sup>2</sup>
+
+
+
+
+
+
+<font> </font>
+Attributes
+*********
+Face = Any FontName(Ex: Century)
+Size = Value (Max : 7)
+Color = color
+
+
+
+
+<img> has no Closing Tag
+Attributes
+********
+src(Source) = "url" (File Location)
+border=value
+width=value in %
+height=value in %
+vspace=value
+hspace=value
+alt(Alternate)="Any Message"
+
+
+
+
+
+
+<Form> Tag Attribute
+***********************
+Name=Form Name(Optional)
+Method=Get(Two Methods : Get(Default), Post)
+Action="URL"
+
+
+<input type=Text(Default) name=Component Name Value="Displaying Text">
+	TextArea*
+	select*
+	Checkbox(Multiple Selection is Possible)
+	Radio(Single Select is Possible)
+	Button
+	Submit
+	Reset
+	Password
+	Hidden
+*Individual Tag
+
+
+<Frameset> Attributes
+*******************
+rows (or) Cols = No. of Pages to Split in % Format
+Border=Value(Width)
+BorderColor=Any Color
+FrameBorder=Yes/No
+ 
+<Frame> Attributes(Empty Tag)
+*****************
+src = "URL"(File Location)
+Scrolling = Yes/No
+Noresize
+Marginwidth=value in % format
+MarginHeight = "      "
+
+
+<Table> Tag Attributes</Table>
+***************************
+align=left(Default),Right,Center
+border=Value(Width)
+Bordercolor=Anycolor
+Cellpadding=value
+Cellspacing=value
+bgcolor=Any Color
+background="URL"
+
+<caption>Table Heading</caption>
+
+<tr>  --> Table Row </tr>
+<th> --> Table Heading</th>(Column Heading)
+<td> --> Table Data</td>
+
+
+Rowspan --> No. of Rows to Merge
+Colspan --> No. of Cols to Merge
+These Attributes are used in <tr>, <th> and <td>
+
+List 
+*****
+There are Three Types of List.
+	1. Ordered List
+	2. Unordered List
+	3. Definition List
+
+Ordered List <ol> </ol>
+***************
+Attributes:
+Type= A,a,i,I,1(Default)
+Start = value
+
+Unordered List <ul> </ul>
+******************
+Attributes:
+Type= square,circle,disc(Default)
+Start Attribute is not Possible in UL Tag.
+
+Definition List
+*************
+<dl> -- </dl>  --> Definition List
+<dt>  --> Definition Term
+<dd> --> Definition Description
+Links <a>   </a>(Anchor Tag)
+******
+Four Types of Links in HTML
+	1. Text(Link to Text and Open Webpage)
+	2. Pictures(Link to Picture)
+	3. Bookmark Link(Same Page Link)
+	4. Websites Link(Internet)
+
+Attributes
+<a href="Linking Placename(or)Filename" name="Location_name">Displaying Text</a>
+
+Ex:
+<a name=Top href=#Bottom>Click me to Move Bottom</a>
+<a href="Table.html">Click Me</a>
+
+Attributes:
+Link = Any Color
+Alink(Active Link) = Any Color
+Vlink(Visit Link) = Any Color
+These Attributes are used in Body Tag.
+
+
+<pre> </pre> Pre Formatted Text
+
+Character Entities
+********************
+&nbsp;  --> No Break SPace( )
+&gt;   --> Greater than(>)
+&lt;   --> Less than(<)
+&amp;  --> Ampersand Symbol(&)
+
+

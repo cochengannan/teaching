@@ -1,0 +1,46 @@
+
+ <!--	
+
+Marquee Tag
+***********
+Attributes
+**********
+
+Direction = up,down,left,right
+Behavior= scroll, slide, alternate (Default -> Scroll)
+Loop = value(Number of time to Scroll)
+Scrollamount = value(Speed)
+scrolldelay = value(Slow)
+Bgcolor=Any Color
+Width = Value in % Format
+Height = Value in % Format
+hspace = value  hspace- horizontal space
+vspace = value  Vspace - Vertical Space
+
+-->
+
+
+<html>
+<head><title>HTML</title></head>
+<body bgcolor="lightgreen">
+
+<marquee><font color="BLUE">Flowers</font></marquee>
+
+<marquee behavior="slide" loop=15 scrollamount=30 bgcolor="pink" >Rose</marquee>
+
+<marquee height="20%" bgcolor="#764587">Lilly</marquee>
+
+<marquee direction="up" hspace=150 vspace=50> Web page</marquee>
+
+<marquee behavior="alternate" scrollamount=10 direction= "right"> 
+ <img src="Z:\Notes\HTML\bld2.jpg">  </marquee>
+</body>
+</html>
+
+
+
+
+
+
+
+
